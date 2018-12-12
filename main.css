@@ -1,0 +1,37 @@
+* {
+    --box-width: 200px;
+    --box-height: 200px;
+    --my-border:solid red;
+}
+
+.box {
+    width: var(--box-width);
+    height: var(--box-height);
+    background-color: black;
+    margin: 1rem;
+    border: 20px var(--my-border);
+}
+
+.box2 {
+    width: var(--box-width);
+    height: var(--box-height);
+    background-color: black;
+    margin: 1rem;
+    border: 10px var(--my-border);
+}
+
+.box3 {
+    width: var(--box-width);
+    height: var(--box-height);
+    background-color: black;
+    margin: 1rem;
+    border: 5px var(--my-border);
+}
+
+.box4 {
+    width: var(--box-width);
+    height: var(--box-height);
+    background-color: black;
+    margin: 1rem;
+    border: 30px var(--my-border);
+}
